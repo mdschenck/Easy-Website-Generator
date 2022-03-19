@@ -24,6 +24,14 @@ h2El.setAttribute("style", `font-size: ${textSize2}px`);
 let textColor2 = prompt("What color do you want this line to be?");
 h2El.setAttribute("style", `color: ${textColor2}`);
 
+let userParagraph = prompt("Now write a paragraph to describe your subject matter.");
+
+var paragraphEl1 = document.createElement("p");
+paragraphEl1.textContent = userParagraph;
+document.body.appendChild(paragraphEl1);
+
+let textColor3 = prompt("What color do you want your paragraph to be?");
+h2El.setAttribute("style", `color: ${textColor3}`);
+
 let bgColor = prompt("What color do you want the background??");
 document.body.setAttribute("style", `background-color: ${bgColor}`);
-
