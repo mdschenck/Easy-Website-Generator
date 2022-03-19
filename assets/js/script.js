@@ -31,7 +31,7 @@ paragraphEl1.textContent = userParagraph;
 document.body.appendChild(paragraphEl1);
 
 let textColor3 = prompt("What color do you want your paragraph to be?");
-h2El.setAttribute("style", `color: ${textColor3}`);
+paragraphEl1.setAttribute("style", `color: ${textColor3}`);
 
 let bgColor = prompt("What color do you want the background??");
 document.body.setAttribute("style", `background-color: ${bgColor}`);
